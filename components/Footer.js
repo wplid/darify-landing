@@ -4,17 +4,17 @@ import Image from "next/image";
 
 const SOCIALS = [
   {
-    name: "X",
-    href: "#",
+    name: "Facebook",
+    href: "https://www.facebook.com/61592801965174/",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
-        <path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.4 22H1.3l8.2-9.3L1 2h7l4.9 6zM17.6 20h1.9L7.5 4H5.4z" />
+        <path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z" />
       </svg>
     ),
   },
   {
     name: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/darify.app/",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-4 w-4">
         <rect x="3" y="3" width="18" height="18" rx="5" />
@@ -24,14 +24,11 @@ const SOCIALS = [
     ),
   },
   {
-    name: "LinkedIn",
-    href: "#",
+    name: "TikTok",
+    href: "https://www.tiktok.com/@darify.app",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
-        <rect x="2" y="2" width="20" height="20" rx="4" fill="none" stroke="currentColor" strokeWidth="1.8" />
-        <circle cx="7.5" cy="7.5" r="1.4" />
-        <rect x="6.3" y="10.5" width="2.4" height="7.5" />
-        <path d="M11.5 10.5h2.3v1.2c.5-.8 1.5-1.4 2.7-1.4 2.1 0 3.3 1.3 3.3 3.7v4h-2.4v-3.6c0-1.1-.4-1.9-1.5-1.9-.9 0-1.4.6-1.6 1.1-.1.2-.1.5-.1.8v3.6h-2.4z" />
+        <path d="M16.5 3c.3 1.9 1.4 3.3 3.3 3.6v2.6c-1.2.1-2.3-.2-3.4-.8v5.8c0 3.2-2.4 5.4-5.4 5.4-2.9 0-5.1-2-5.1-4.7 0-2.8 2.3-4.8 5-4.5v2.7c-.4-.1-.8-.2-1.2-.2-1.2 0-2 .8-2 2 0 1.2.9 2 2.1 2 1.4 0 2.4-1.1 2.4-2.8V3z" />
       </svg>
     ),
   },
